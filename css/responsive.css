@@ -1,0 +1,157 @@
+@media (max-width: 980px) {
+  .menu-toggle {
+    display: inline-grid;
+  }
+
+  .nav-menu {
+    position: fixed;
+    inset: var(--header-height) 0 auto 0;
+    display: grid;
+    gap: 22px;
+    padding: 22px;
+    background: var(--surface-solid);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    transform: translateY(-130%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .nav-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-links {
+    display: grid;
+    gap: 6px;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 12px 14px;
+  }
+
+  .nav-actions {
+    justify-content: space-between;
+  }
+
+  .hero-grid,
+  .split-layout,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 70px;
+  }
+
+  .hero-visual {
+    width: min(520px, 100%);
+    margin-inline: auto;
+  }
+
+  .skills-grid,
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  :root {
+    --header-height: 68px;
+  }
+
+  .container {
+    width: min(100% - 24px, 1120px);
+  }
+
+  .brand-text {
+    display: none;
+  }
+
+  .section {
+    padding: 72px 0;
+  }
+
+  .hero-actions,
+  .modal-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero-visual {
+    min-height: auto;
+  }
+
+  .metric-card {
+    position: static;
+    margin-top: 12px;
+  }
+
+  .quick-info,
+  .skills-grid,
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline::before {
+    left: 12px;
+  }
+
+  .timeline-item {
+    margin-left: 34px;
+    padding: 18px;
+  }
+
+  .timeline-item::before {
+    left: -29px;
+  }
+
+  .testimonial-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .slider-btn {
+    width: 100%;
+    aspect-ratio: auto;
+    height: 42px;
+  }
+
+  .contact-form {
+    padding: 18px;
+  }
+
+  .modal {
+    padding: 12px;
+  }
+
+  .modal-panel {
+    max-height: calc(100vh - 24px);
+  }
+
+  .modal-body {
+    padding: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

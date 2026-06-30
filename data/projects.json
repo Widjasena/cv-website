@@ -1,0 +1,68 @@
+[
+  {
+    "id": "saas-dashboard",
+    "title": "SaaS Analytics Dashboard",
+    "description": "Responsive dashboard for tracking growth metrics, revenue, and customer activity.",
+    "longDescription": "A polished SaaS dashboard concept with responsive cards, data sections, accessible interactions, and a layout optimized for repeated daily use.",
+    "category": "web",
+    "image": "assets/images/project-dashboard.svg",
+    "tech": ["HTML", "CSS", "JavaScript", "Charts"],
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "id": "task-app",
+    "title": "Focus Task App",
+    "description": "Productivity app interface with task grouping, priority states, and clean mobile UX.",
+    "longDescription": "A lightweight task app prototype designed for focus sessions, including priority labels, compact navigation, and mobile-first task management flows.",
+    "category": "app",
+    "image": "assets/images/project-app.svg",
+    "tech": ["JavaScript", "LocalStorage", "CSS Grid"],
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "id": "brand-system",
+    "title": "Creative Brand System",
+    "description": "Landing page and design system exploration for a modern creative studio.",
+    "longDescription": "A brand-focused design exploration covering typography, reusable sections, color tokens, and a clean landing page experience for a creative studio.",
+    "category": "design",
+    "image": "assets/images/project-design.svg",
+    "tech": ["Figma", "Design System", "Prototype"],
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "id": "portfolio-builder",
+    "title": "Portfolio Builder",
+    "description": "Personal website template with JSON content, dark mode, and project filtering.",
+    "longDescription": "A data-driven personal portfolio template that separates content from presentation, supports theme switching, and keeps the UI fast with vanilla JavaScript.",
+    "category": "web",
+    "image": "assets/images/project-portfolio.svg",
+    "tech": ["HTML", "CSS", "ES Modules", "JSON"],
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "id": "mobile-wallet",
+    "title": "Mobile Wallet UI",
+    "description": "App UI concept for wallet overview, transaction history, and transfer flows.",
+    "longDescription": "A compact mobile wallet interface designed around clarity, trust, and fast scanning for balances, transactions, and common payment actions.",
+    "category": "app",
+    "image": "assets/images/project-wallet.svg",
+    "tech": ["UI Design", "Prototype", "Interaction"],
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  },
+  {
+    "id": "agency-site",
+    "title": "Agency Website",
+    "description": "Marketing website for a digital agency with strong hierarchy and fast loading pages.",
+    "longDescription": "A modern agency website concept using semantic HTML, responsive layout systems, strong content hierarchy, and optimized visual assets.",
+    "category": "web",
+    "image": "assets/images/project-agency.svg",
+    "tech": ["HTML", "CSS", "SEO", "Accessibility"],
+    "github": "https://github.com/",
+    "live": "https://example.com/"
+  }
+]

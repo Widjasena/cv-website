@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "Hegar Wijasena - CV & Portfolio",
+    "description": "Website CV dan portfolio modern untuk frontend developer dan UI/UX designer.",
+    "keywords": "CV, portfolio, frontend developer, UI UX designer, website pribadi",
+    "ogTitle": "Hegar Wijasena - CV & Portfolio",
+    "ogDescription": "Website personal modern berisi profil, skill, pengalaman, project, dan kontak."
+  },
+  "brand": "Hegar Wijasena",
+  "accessibility": {
+    "skip": "Lewati ke konten utama",
+    "menu": "Buka menu navigasi",
+    "theme": "Ganti tema",
+    "close": "Tutup modal",
+    "previous": "Testimoni sebelumnya",
+    "next": "Testimoni berikutnya"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "experience": "Pengalaman",
+    "projects": "Project",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "eyebrow": "Portfolio Personal",
+    "greeting": "Halo, saya",
+    "name": "Hegar Wijasena",
+    "rolePrefix": "Saya membangun ",
+    "typing": ["website cepat", "UI yang rapi", "produk digital"],
+    "tagline": "Frontend developer dan UI/UX designer yang fokus membuat pengalaman digital yang bersih, responsif, mudah digunakan, dan siap dipakai di dunia nyata.",
+    "download": "Download CV",
+    "contact": "Hubungi Saya",
+    "metricOneValue": "4+",
+    "metricOneLabel": "Tahun pengalaman",
+    "metricTwoValue": "28",
+    "metricTwoLabel": "Project selesai"
+  },
+  "socials": [
+    { "label": "GitHub", "icon": "GH", "url": "https://github.com/" },
+    { "label": "LinkedIn", "icon": "IN", "url": "https://linkedin.com/" },
+    { "label": "Dribbble", "icon": "DB", "url": "https://dribbble.com/" }
+  ],
+  "about": {
+    "kicker": "Tentang Saya",
+    "title": "Saya merancang antarmuka yang terasa sederhana, sekaligus membangun frontend yang kuat.",
+    "description": "Saya membantu bisnis dan tim produk menerjemahkan ide menjadi website, dashboard, dan aplikasi web yang cepat, mudah dipelihara, serta nyaman digunakan lintas perangkat.",
+    "photoAlt": "Foto profil Hegar Wijasena",
+    "info": [
+      { "label": "Usia", "value": "25 Tahun" },
+      { "label": "Lokasi", "value": "Indonesia" },
+      { "label": "Pengalaman", "value": "4+ Tahun" },
+      { "label": "Email", "value": "hello@hegar.dev" }
+    ]
+  },
+  "skills": {
+    "kicker": "Keahlian",
+    "title": "Skill teknis dan cara kerja",
+    "subtitle": "Kombinasi engineering, desain, dan komunikasi untuk membuat produk digital yang enak dipakai.",
+    "categories": [
+      {
+        "title": "Frontend",
+        "items": [
+          { "name": "HTML Semantic", "level": 96 },
+          { "name": "CSS Modern", "level": 94 },
+          { "name": "JavaScript", "level": 90 },
+          { "name": "React Basics", "level": 84 }
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          { "name": "REST API", "level": 78 },
+          { "name": "Node.js", "level": 74 },
+          { "name": "Database", "level": 70 }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          { "name": "Git", "level": 88 },
+          { "name": "Figma", "level": 92 },
+          { "name": "Vite", "level": 82 }
+        ]
+      },
+      {
+        "title": "Soft Skills",
+        "items": [
+          { "name": "Komunikasi", "level": 90 },
+          { "name": "Problem Solving", "level": 92 },
+          { "name": "Kolaborasi", "level": 88 }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "kicker": "Perjalanan",
+    "title": "Pengalaman dan pendidikan",
+    "subtitle": "Timeline singkat tentang pekerjaan, project, dan pembelajaran yang membentuk cara saya bekerja.",
+    "items": [
+      {
+        "period": "2024 - Sekarang",
+        "title": "Frontend Developer Freelance",
+        "description": "Membangun landing page, dashboard, dan website company profile dengan fokus performa, aksesibilitas, dan desain responsif."
+      },
+      {
+        "period": "2022 - 2024",
+        "title": "UI/UX Designer",
+        "description": "Merancang wireframe, design system ringan, dan prototype untuk produk SaaS, edukasi, dan bisnis lokal."
+      },
+      {
+        "period": "2019 - 2023",
+        "title": "Informatics Student",
+        "description": "Mendalami dasar pemrograman, struktur data, database, software engineering, dan praktik pengembangan web."
+      }
+    ]
+  },
+  "projects": {
+    "kicker": "Portfolio",
+    "title": "Project pilihan",
+    "subtitle": "Beberapa contoh pekerjaan yang menggabungkan visual, interaksi, dan struktur frontend yang rapi.",
+    "filters": [
+      { "label": "Semua", "value": "all" },
+      { "label": "Web", "value": "web" },
+      { "label": "App", "value": "app" },
+      { "label": "Design", "value": "design" }
+    ],
+    "categoryLabels": {
+      "web": "Website",
+      "app": "Aplikasi",
+      "design": "Desain"
+    },
+    "liveDemo": "Demo Live",
+    "github": "GitHub"
+  },
+  "testimonials": {
+    "kicker": "Testimoni",
+    "title": "Apa kata mereka",
+    "items": [
+      {
+        "quote": "Hegar Wijasena mampu menerjemahkan brief yang kompleks menjadi tampilan yang rapi, cepat, dan mudah dipahami pengguna.",
+        "name": "Nadia Putri",
+        "role": "Product Manager"
+      },
+      {
+        "quote": "Komunikasinya jelas, detailnya kuat, dan hasil akhirnya terasa sangat profesional di desktop maupun mobile.",
+        "name": "Raka Mahendra",
+        "role": "Founder"
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Kontak",
+    "title": "Mari buat sesuatu yang berguna.",
+    "subtitle": "Punya ide website, dashboard, atau portfolio? Kirim pesan dan saya akan merespons secepat mungkin.",
+    "items": [
+      { "icon": "@", "text": "hello@hegar.dev", "href": "mailto:hello@hegar.dev" },
+      { "icon": "+", "text": "+62 812 3456 7890", "href": "tel:+6281234567890" },
+      { "icon": "ID", "text": "Indonesia", "href": "https://maps.google.com/?q=Indonesia" }
+    ],
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "message": "Pesan",
+      "namePlaceholder": "Nama lengkap",
+      "emailPlaceholder": "email@domain.com",
+      "messagePlaceholder": "Ceritakan kebutuhan project Anda",
+      "submit": "Kirim Pesan",
+      "success": "Pesan berhasil divalidasi. Terima kasih!",
+      "errors": {
+        "name": "Nama wajib diisi.",
+        "email": "Masukkan email yang valid.",
+        "message": "Pesan minimal 10 karakter."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Personal CV dan portfolio modern untuk membangun kepercayaan secara digital.",
+    "copyright": "(c) 2026 Hegar Wijasena. Semua hak dilindungi."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "Hegar Wijasena - CV & Portfolio",
+    "description": "Modern CV and portfolio website for a frontend developer and UI/UX designer.",
+    "keywords": "CV, portfolio, frontend developer, UI UX designer, personal website",
+    "ogTitle": "Hegar Wijasena - CV & Portfolio",
+    "ogDescription": "A modern personal website with profile, skills, experience, projects, and contact."
+  },
+  "brand": "Hegar Wijasena",
+  "accessibility": {
+    "skip": "Skip to main content",
+    "menu": "Open navigation menu",
+    "theme": "Toggle theme",
+    "close": "Close modal",
+    "previous": "Previous testimonial",
+    "next": "Next testimonial"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Personal Portfolio",
+    "greeting": "Hi, I am",
+    "name": "Hegar Wijasena",
+    "rolePrefix": "I build ",
+    "typing": ["fast websites", "polished UI", "digital products"],
+    "tagline": "Frontend developer and UI/UX designer focused on clean, responsive, usable, and production-ready digital experiences.",
+    "download": "Download CV",
+    "contact": "Contact Me",
+    "metricOneValue": "4+",
+    "metricOneLabel": "Years experience",
+    "metricTwoValue": "28",
+    "metricTwoLabel": "Projects shipped"
+  },
+  "socials": [
+    { "label": "GitHub", "icon": "GH", "url": "https://github.com/" },
+    { "label": "LinkedIn", "icon": "IN", "url": "https://linkedin.com/" },
+    { "label": "Dribbble", "icon": "DB", "url": "https://dribbble.com/" }
+  ],
+  "about": {
+    "kicker": "About Me",
+    "title": "I design interfaces that feel simple and build frontend systems that stay solid.",
+    "description": "I help businesses and product teams turn ideas into websites, dashboards, and web apps that are fast, maintainable, and comfortable to use across devices.",
+    "photoAlt": "Profile photo of Hegar Wijasena",
+    "info": [
+      { "label": "Age", "value": "25 Years" },
+      { "label": "Location", "value": "Indonesia" },
+      { "label": "Experience", "value": "4+ Years" },
+      { "label": "Email", "value": "hello@hegar.dev" }
+    ]
+  },
+  "skills": {
+    "kicker": "Skills",
+    "title": "Technical skills and working style",
+    "subtitle": "A blend of engineering, design, and communication to create digital products that feel good to use.",
+    "categories": [
+      {
+        "title": "Frontend",
+        "items": [
+          { "name": "Semantic HTML", "level": 96 },
+          { "name": "Modern CSS", "level": 94 },
+          { "name": "JavaScript", "level": 90 },
+          { "name": "React Basics", "level": 84 }
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          { "name": "REST API", "level": 78 },
+          { "name": "Node.js", "level": 74 },
+          { "name": "Database", "level": 70 }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          { "name": "Git", "level": 88 },
+          { "name": "Figma", "level": 92 },
+          { "name": "Vite", "level": 82 }
+        ]
+      },
+      {
+        "title": "Soft Skills",
+        "items": [
+          { "name": "Communication", "level": 90 },
+          { "name": "Problem Solving", "level": 92 },
+          { "name": "Collaboration", "level": 88 }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "kicker": "Journey",
+    "title": "Experience and education",
+    "subtitle": "A short timeline of work, projects, and learning that shaped how I build digital products.",
+    "items": [
+      {
+        "period": "2024 - Present",
+        "title": "Freelance Frontend Developer",
+        "description": "Built landing pages, dashboards, and company profile websites with a focus on performance, accessibility, and responsive design."
+      },
+      {
+        "period": "2022 - 2024",
+        "title": "UI/UX Designer",
+        "description": "Designed wireframes, lightweight design systems, and prototypes for SaaS, education, and local business products."
+      },
+      {
+        "period": "2019 - 2023",
+        "title": "Informatics Student",
+        "description": "Studied programming fundamentals, data structures, databases, software engineering, and web development practices."
+      }
+    ]
+  },
+  "projects": {
+    "kicker": "Portfolio",
+    "title": "Selected projects",
+    "subtitle": "A few examples of work that combine visual polish, interaction, and clean frontend structure.",
+    "filters": [
+      { "label": "All", "value": "all" },
+      { "label": "Web", "value": "web" },
+      { "label": "App", "value": "app" },
+      { "label": "Design", "value": "design" }
+    ],
+    "categoryLabels": {
+      "web": "Website",
+      "app": "Application",
+      "design": "Design"
+    },
+    "liveDemo": "Live Demo",
+    "github": "GitHub"
+  },
+  "testimonials": {
+    "kicker": "Testimonials",
+    "title": "What people say",
+    "items": [
+      {
+        "quote": "Hegar Wijasena turns complex briefs into interfaces that are clean, fast, and easy for users to understand.",
+        "name": "Nadia Putri",
+        "role": "Product Manager"
+      },
+      {
+        "quote": "The communication was clear, the details were strong, and the final result felt professional on desktop and mobile.",
+        "name": "Raka Mahendra",
+        "role": "Founder"
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let us build something useful.",
+    "subtitle": "Have an idea for a website, dashboard, or portfolio? Send a message and I will respond as soon as possible.",
+    "items": [
+      { "icon": "@", "text": "hello@hegar.dev", "href": "mailto:hello@hegar.dev" },
+      { "icon": "+", "text": "+62 812 3456 7890", "href": "tel:+6281234567890" },
+      { "icon": "ID", "text": "Indonesia", "href": "https://maps.google.com/?q=Indonesia" }
+    ],
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Full name",
+      "emailPlaceholder": "email@domain.com",
+      "messagePlaceholder": "Tell me about your project",
+      "submit": "Send Message",
+      "success": "Message validated successfully. Thank you!",
+      "errors": {
+        "name": "Name is required.",
+        "email": "Enter a valid email address.",
+        "message": "Message must be at least 10 characters."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Modern personal CV and portfolio for building digital trust.",
+    "copyright": "(c) 2026 Hegar Wijasena. All rights reserved."
+  }
+}
